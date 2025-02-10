@@ -16,17 +16,23 @@ fetch('js/idioms.json')
         displayIdiom(categoryData.idioms[currentIndex]);
 
         // Flip card function
-        function flipCard() {
+        window.flipCard = function () {
           const idiomText = document.getElementById("idiom-text");
           const translationText = document.getElementById("translation-text");
           translationText.classList.toggle("d-none");
-        }
+        };
 
-        // Display next idiom
-        function nextIdiom() {
+        // Mark as remembered
+        window.markRemembered = function () {
           currentIndex = (currentIndex + 1) % categoryData.idioms.length;
           displayIdiom(categoryData.idioms[currentIndex]);
-        }
+        };
+
+        // Mark for review
+        window.markReview = function () {
+          currentIndex = (currentIndex + 1) % categoryData.idioms.length;
+          displayIdiom(categoryData.idioms[currentIndex]);
+        };
 
         // Display idiom
         function displayIdiom(idiom) {
@@ -37,11 +43,6 @@ fetch('js/idioms.json')
           translationText.textContent = `${idiom.translation}: ${idiom.explanation}`;
           translationText.classList.add("d-none"); // Hide translation initially
         }
-
-        // Add event listeners
-        document.querySelector(".btn-primary").addEventListener("click", flipCard);
-        document.querySelector(".btn-success").addEventListener("click", nextIdiom);
-        document.querySelector(".btn-warning").addEventListener("click", nextIdiom);
       }
     }
   })

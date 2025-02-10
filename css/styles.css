@@ -1,1 +1,25 @@
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
 
+.card {
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 10px;
+}
+
+.btn-primary {
+  background-color: #4a90e2;
+  border: none;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  border: none;
+}

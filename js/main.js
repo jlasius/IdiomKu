@@ -30,12 +30,8 @@ fetch('js/idioms.json')
 
         // Display idiom
         function displayIdiom(idiom) {
-          const idiomText = document.getElementById("idiom-text");
-          const translationText = document.getElementById("translation-text");
-          
-          idiomText.textContent = idiom.idiom;
-          translationText.textContent = `${idiom.translation}: ${idiom.explanation}`;
-          translationText.classList.add("d-none"); // Hide translation initially
+          document.getElementById("idiom-text").textContent = idiom.idiom;
+          document.getElementById("translation-text").textContent = `${idiom.translation}: ${idiom.explanation}`;
         }
 
         // Add event listeners
@@ -44,5 +40,4 @@ fetch('js/idioms.json')
         document.querySelector(".btn-warning").addEventListener("click", nextIdiom);
       }
     }
-  })
-  .catch(error => console.error("Error loading idioms:", error));
+  });

@@ -38,10 +38,20 @@ fetch('js/idioms.json')
         function displayIdiom(idiom) {
           const idiomText = document.getElementById("idiom-text");
           const translationText = document.getElementById("translation-text");
-          
+
+          // Display the idiom
           idiomText.textContent = idiom.idiom;
-          translationText.textContent = `${idiom.translation}: ${idiom.explanation}`;
-          translationText.classList.add("d-none"); // Hide translation initially
+
+          // Display the translation, explanation, and example
+          translationText.innerHTML = `
+            <strong>Translation:</strong> ${idiom.translation}<br>
+            <strong>Explanation:</strong> ${idiom.explanation}<br>
+            <strong>Example (BM):</strong> ${idiom.example.BM}<br>
+            <strong>Example (English):</strong> ${idiom.example.English}
+          `;
+
+          // Hide the translation initially
+          translationText.classList.add("d-none");
         }
       }
     }

@@ -29,9 +29,161 @@
             "BM": "Hati gembira melihat anak-anaknya berjaya dalam pelajaran.",
             "English": "She felt joyful seeing her children succeed in their studies."
           }
+        },
+    {
+        "idiom": "Hati panas",
+        "translation": "Hot heart.",
+        "explanation": "Feeling angry or easily irritated.",
+        "example": {
+            "BM": "Jangan cakap dengan dia sekarang, dia sedang hati panas.",
+            "English": "Don’t talk to him now; he’s feeling angry."
         }
-        // Add more idioms for this category...
-      ]
+    },
+    {
+        "idiom": "Hati kecil",
+        "translation": "Small heart.",
+        "explanation": "Feeling guilty or having a bad conscience.",
+        "example": {
+            "BM": "Dia ada hati kecil kerana tidak menolong kawannya semalam.",
+            "English": "He felt guilty for not helping his friend yesterday."
+        }
+    },
+    {
+        "idiom": "Hati tersentuh",
+        "translation": "Touched heart.",
+        "explanation": "Feeling emotionally moved.",
+        "example": {
+            "BM": "Hati saya tersentuh mendengar cerita sedih itu.",
+            "English": "My heart was touched hearing that sad story."
+        }
+    },
+    {
+        "idiom": "Hati berbisa",
+        "translation": "Poisonous heart.",
+        "explanation": "Feeling resentful or holding a grudge.",
+        "example": {
+            "BM": "Dia masih ada hati berbisa terhadap bekas kawannya.",
+            "English": "He still holds a grudge against his former friend."
+        }
+    },
+    {
+        "idiom": "Hati kering",
+        "translation": "Dry heart.",
+        "explanation": "Feeling emotionally numb or indifferent.",
+        "example": {
+            "BM": "Selepas kejadian itu, hatinya menjadi kering.",
+            "English": "After the incident, his heart became numb."
+        }
+    },
+    {
+        "idiom": "Hati berbunga-bunga",
+        "translation": "Heart blooming with flowers.",
+        "explanation": "Feeling overjoyed or excited.",
+        "example": {
+            "BM": "Hati saya berbunga-bunga apabila mendapat berita baik itu.",
+            "English": "My heart was blooming with joy when I heard the good news."
+        }
+    },
+    {
+        "idiom": "Hati luka",
+        "translation": "Wounded heart.",
+        "explanation": "Feeling hurt emotionally.",
+        "example": {
+            "BM": "Hatinya luka kerana dikhianati oleh sahabat karibnya.",
+            "English": "His heart was wounded because he was betrayed by his best friend."
+        }
+    },
+    {
+        "idiom": "Rasa hati",
+        "translation": "Feeling of the heart.",
+        "explanation": "Intuition or gut feeling.",
+        "example": {
+            "BM": "Rasa hati saya mengatakan ada sesuatu yang tidak kena.",
+            "English": "My gut feeling tells me something is wrong."
+        }
+    },
+    {
+        "idiom": "Sakit hati",
+        "translation": "Heartache.",
+        "explanation": "Feeling deeply hurt or resentful.",
+        "example": {
+            "BM": "Dia sakit hati kerana dikhianati oleh sahabatnya.",
+            "English": "He felt heartache because he was betrayed by his friend."
+        }
+    },
+    {
+        "idiom": "Sejuk hati",
+        "translation": "Cool heart.",
+        "explanation": "Feeling calm and at peace.",
+        "example": {
+            "BM": "Selepas selesaikan masalah, hati saya sejuk.",
+            "English": "After solving the problem, my heart felt at peace."
+        }
+    },
+    {
+        "idiom": "Tegang hati",
+        "translation": "Tense heart.",
+        "explanation": "Feeling anxious or stressed.",
+        "example": {
+            "BM": "Dia berasa tegang hati sebelum peperiksaan.",
+            "English": "He felt anxious before the exam."
+        }
+    },
+    {
+        "idiom": "Terang hati",
+        "translation": "Bright heart.",
+        "explanation": "Feeling enlightened or clear-minded.",
+        "example": {
+            "BM": "Selepas berbincang, hati saya terang.",
+            "English": "After discussing, my mind felt clear."
+        }
+    },
+    {
+        "idiom": "Terbakar hati",
+        "translation": "Heart on fire.",
+        "explanation": "Feeling intense anger or jealousy.",
+        "example": {
+            "BM": "Dia terbakar hati melihat kekasihnya dengan orang lain.",
+            "English": "His heart burned with jealousy seeing his lover with someone else."
+        }
+    },
+    {
+        "idiom": "Tertekan hati",
+        "translation": "Pressured heart.",
+        "explanation": "Feeling emotionally burdened.",
+        "example": {
+            "BM": "Dia tertekan hati kerana beban kerja yang banyak.",
+            "English": "He felt emotionally burdened due to the heavy workload."
+        }
+    },
+    {
+        "idiom": "Tulus hati",
+        "translation": "Sincere heart.",
+        "explanation": "Being genuine and honest.",
+        "example": {
+            "BM": "Dia membantu dengan tulus hati.",
+            "English": "He helped with a sincere heart."
+        }
+    },
+    {
+        "idiom": "Usah hati",
+        "translation": "Don’t worry.",
+        "explanation": "A phrase to comfort someone.",
+        "example": {
+            "BM": "Usah hati, semuanya akan baik.",
+            "English": "Don’t worry, everything will be fine."
+        }
+    },
+    {
+        "idiom": "Hati-hati",
+        "translation": "Be careful.",
+        "explanation": "A warning to be cautious.",
+        "example": {
+            "BM": "Hati-hati di jalan raya.",
+            "English": "Be careful on the road."
+        }
+    }
+] 
     },
     {
       "name": "Work and Effort",

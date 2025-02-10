@@ -44,3 +44,56 @@ function markReview() {
   currentIndex = (currentIndex + 1) % idioms[currentCategory].length;
   flipCard();
 }
+
+
+
+
+
+
+
+
+
+// Load idioms from JSON
+fetch('js/idioms.json')
+  .then(response => response.json())
+  .then(data => {
+    const idioms = data.categories;
+    const urlParams = new URLSearchParams(window.location.search);
+    const category = urlParams.get("category");
+
+    if (category) {
+      const categoryData = idioms.find(cat => cat.name.toLowerCase().includes(category));
+      if (categoryData) {
+        document.getElementById("category-title").textContent = categoryData.name;
+        let currentIndex = 0;
+
+        // Display first idiom
+        displayIdiom(categoryData.idioms[currentIndex]);
+
+        // Flip card function
+        function flipCard() {
+          const idiomText = document.getElementById("idiom-text");
+          const translationText = document.getElementById("translation-text");
+          translationText.classList.toggle("d-none");
+        }
+
+        // Display next idiom
+        function nextIdiom() {
+          currentIndex = (currentIndex + 1) % categoryData.idioms.length;
+          displayIdiom(categoryData.idioms[currentIndex]);
+        }
+
+        // Display idiom
+        function displayIdiom(idiom) {
+          document.getElementById("idiom-text").textContent = idiom.idiom;
+          document.getElementById("translation-text").textContent = `${idiom.translation}: ${idiom.explanation}`;
+        }
+
+        // Add event listeners
+        document.querySelector(".btn-primary").addEventListener("click", flipCard);
+        document.querySelector(".btn-success").addEventListener("click", nextIdiom);
+        document.querySelector(".btn-warning").addEventListener("click", nextIdiom);
+      }
+    }
+  });
+

@@ -1,0 +1,205 @@
+{
+  "categories": [
+    {
+      "name": "Emotions and Feelings",
+      "idioms": [
+        {
+          "idiom": "Hati berbunga-bunga",
+          "translation": "Heart blooming with flowers.",
+          "explanation": "Feeling extremely happy or excited.",
+          "example": {
+            "BM": "Dia berasa hati berbunga-bunga apabila menerima hadiah itu.",
+            "English": "She felt overjoyed when she received the gift."
+          }
+        },
+        {
+          "idiom": "Hati berat",
+          "translation": "Heavy heart.",
+          "explanation": "Feeling sad or reluctant to do something.",
+          "example": {
+            "BM": "Dengan hati berat, dia meninggalkan kampung halamannya.",
+            "English": "With a heavy heart, he left his hometown."
+          }
+        },
+        {
+          "idiom": "Hati gembira",
+          "translation": "Joyful heart.",
+          "explanation": "Feeling happy and content.",
+          "example": {
+            "BM": "Hati gembira melihat anak-anaknya berjaya dalam pelajaran.",
+            "English": "She felt joyful seeing her children succeed in their studies."
+          }
+        }
+        // Add more idioms for this category...
+      ]
+    },
+    {
+      "name": "Work and Effort",
+      "idioms": [
+        {
+          "idiom": "Berat tulang",
+          "translation": "Heavy bones.",
+          "explanation": "Being lazy or unwilling to work.",
+          "example": {
+            "BM": "Jangan jadi berat tulang, tolong kemas bilik ini.",
+            "English": "Don’t be lazy; help clean up this room."
+          }
+        },
+        {
+          "idiom": "Ringan tulang",
+          "translation": "Light bones.",
+          "explanation": "Being hardworking and diligent.",
+          "example": {
+            "BM": "Dia ringan tulang, sentiasa membantu ibunya di dapur.",
+            "English": "He’s hardworking, always helping his mother in the kitchen."
+          }
+        }
+        // Add more idioms for this category...
+      ]
+    },
+    {
+      "name": "Relationships and Social Interactions",
+      "idioms": [
+        {
+          "idiom": "Ada udang di sebalik batu",
+          "translation": "There’s a prawn behind the rock.",
+          "explanation": "There’s a hidden agenda or ulterior motive.",
+          "example": {
+            "BM": "Dia baik sangat dengan saya tiba-tiba, pasti ada udang di sebalik batu.",
+            "English": "He’s suddenly being very nice to me; there must be a hidden agenda."
+          }
+        },
+        {
+          "idiom": "Air dicincang tidak akan putus",
+          "translation": "Chopped water won’t break.",
+          "explanation": "Family ties cannot be broken easily.",
+          "example": {
+            "BM": "Walaupun kami bergaduh, air dicincang tidak akan putus.",
+            "English": "Even though we argue, family ties cannot be broken."
+          }
+        }
+        // Add more idioms for this category...
+      ]
+    },
+    {
+      "name": "Nature and Animals",
+      "idioms": [
+        {
+          "idiom": "Bagai aur dengan tebing",
+          "translation": "Like bamboo and the riverbank.",
+          "explanation": "A close and inseparable relationship.",
+          "example": {
+            "BM": "Hubungan mereka bagai aur dengan tebing.",
+            "English": "Their relationship is like bamboo and the riverbank—inseparable."
+          }
+        },
+        {
+          "idiom": "Bagai enau dalam belukar melepaskan pucuk masing-masing",
+          "translation": "Like sugar palms in the jungle releasing their shoots.",
+          "explanation": "Everyone is looking out for themselves.",
+          "example": {
+            "BM": "Dalam dunia bisnes, ramai yang bagai enau dalam belukar.",
+            "English": "In the business world, many people are just looking out for themselves."
+          }
+        }
+        // Add more idioms for this category...
+      ]
+    },
+    {
+      "name": "Success and Failure",
+      "idioms": [
+        {
+          "idiom": "Alah bisa tegal biasa",
+          "translation": "What was once difficult becomes easy with practice.",
+          "explanation": "Persistence leads to success.",
+          "example": {
+            "BM": "Awalnya susah, tapi alah bisa tegal biasa.",
+            "English": "It was hard at first, but practice made it easier."
+          }
+        },
+        {
+          "idiom": "Berat sama dipikul, ringan sama dijinjing",
+          "translation": "Heavy burdens are carried together, light ones are lifted together.",
+          "explanation": "Sharing responsibilities equally.",
+          "example": {
+            "BM": "Dalam keluarga, kita kena berat sama dipikul, ringan sama dijinjing.",
+            "English": "In a family, we must share responsibilities equally."
+          }
+        }
+        // Add more idioms for this category...
+      ]
+    },
+    {
+      "name": "Wisdom and Life Lessons",
+      "idioms": [
+        {
+          "idiom": "Air tenang menghanyutkan",
+          "translation": "Still waters run deep.",
+          "explanation": "Quiet people often have hidden depths.",
+          "example": {
+            "BM": "Dia kelihatan pendiam, tapi air tenang menghanyutkan.",
+            "English": "He seems quiet, but still waters run deep."
+          }
+        },
+        {
+          "idiom": "Bersatu kita teguh, bercerai kita roboh",
+          "translation": "United we stand, divided we fall.",
+          "explanation": "Unity brings strength.",
+          "example": {
+            "BM": "Kita kena bersatu, kerana bersatu kita teguh, bercerai kita roboh.",
+            "English": "We must unite because united we stand, divided we fall."
+          }
+        }
+        // Add more idioms for this category...
+      ]
+    },
+    {
+      "name": "Challenges and Struggles",
+      "idioms": [
+        {
+          "idiom": "Berat mata memandang, berat lagi bahu memikul",
+          "translation": "It’s hard to see, but even harder to carry.",
+          "explanation": "Understanding someone’s struggles is easier than experiencing them.",
+          "example": {
+            "BM": "Kita mungkin nampak susah, tapi berat mata memandang, berat lagi bahu memikul.",
+            "English": "We might see it as hard, but it’s harder to experience it."
+          }
+        },
+        {
+          "idiom": "Berat sama dipikul, ringan sama dijinjing",
+          "translation": "Heavy burdens are carried together, light ones are lifted together.",
+          "explanation": "Sharing responsibilities makes challenges easier.",
+          "example": {
+            "BM": "Dalam keluarga, kita kena berat sama dipikul, ringan sama dijinjing.",
+            "English": "In a family, we must share responsibilities equally."
+          }
+        }
+        // Add more idioms for this category...
+      ]
+    },
+    {
+      "name": "Miscellaneous",
+      "idioms": [
+        {
+          "idiom": "Ada asap ada api",
+          "translation": "Where there’s smoke, there’s fire.",
+          "explanation": "Rumors often have some truth to them.",
+          "example": {
+            "BM": "Ada asap ada api, mungkin ada kebenaran dalam khabar itu.",
+            "English": "Where there’s smoke, there’s fire; there might be some truth to the rumor."
+          }
+        },
+        {
+          "idiom": "Bagai isi dengan kuku",
+          "translation": "Like flesh and nails.",
+          "explanation": "A very close relationship.",
+          "example": {
+            "BM": "Hubungan mereka bagai isi dengan kuku.",
+            "English": "Their relationship is like flesh and nails—very close."
+          }
+        }
+        // Add more idioms for this category...
+      ]
+    }
+  ]
+}

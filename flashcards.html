@@ -12,14 +12,21 @@
     <h1 class="text-center" id="category-title">Flashcards</h1>
     <div class="row justify-content-center">
       <div class="col-md-6">
-        <div class="card text-center mb-3">
+        <!-- Flashcard -->
+        <div class="card" id="flashcard">
           <div class="card-body">
-            <h5 class="card-title" id="idiom-text">Click to Start</h5>
-            <p class="card-text d-none" id="translation-text">Translation will appear here.</p>
-            <button class="btn btn-primary" onclick="flipCard()">Flip Card</button>
+            <!-- Front of the card -->
+            <div class="card-front">
+              <h5 class="card-title" id="idiom-text">Click to Start</h5>
+            </div>
+            <!-- Back of the card -->
+            <div class="card-back">
+              <p class="card-text" id="translation-text">Translation will appear here.</p>
+            </div>
           </div>
         </div>
-        <div class="text-center">
+        <!-- Navigation buttons -->
+        <div class="text-center mt-3">
           <button class="btn btn-secondary" onclick="previousCard()">← Previous</button>
           <button class="btn btn-secondary" onclick="nextCard()">Next →</button>
         </div>

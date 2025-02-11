@@ -70,6 +70,11 @@ fetch('js/idioms.json')
           }
         });
 
+        // Go back to the previous page
+window.goBack = function () {
+  window.history.back();
+};
+
         // Add swipe functionality for mobile devices
         let touchStartX = 0;
         let touchEndX = 0;

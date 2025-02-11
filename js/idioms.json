@@ -197,7 +197,15 @@
             "English": "Don’t be lazy; help clean up this room."
           }
         },
-
+    {
+      "idiom": "Mendapat durian runtuh",
+      "translation": "Getting a windfall.",
+      "explanation": "Unexpectedly gaining something valuable or achieving success without much effort.",
+      "example": {
+        "BM": "Dia mendapat durian runtuh apabila memenangi loteri.",
+        "English": "He got a windfall when he won the lottery."
+    }
+},
         {
             "idiom": "Ringan tulang",
             "translation": "Light bones.",
@@ -420,6 +428,16 @@
           "English": "Don’t be too nice to him; do good in moderation."
       }
   },
+  {
+    "idiom": "Anak emas",
+    "translation": "Golden child.",
+    "explanation": "A favored or cherished person, often receiving special treatment or attention.",
+    "example": {
+        "BM": "Ali adalah anak emas dalam keluarganya kerana dia selalu mendapat perhatian lebih.",
+        "English": "Ali is the golden child in his family because he always gets extra attention."
+      }
+  },
+      
   {
       "idiom": "Cakap tak serupa bikin",
       "translation": "Words don’t match actions.",

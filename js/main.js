@@ -1,4 +1,4 @@
-// Load idioms from JSON
+// Load idiomes from JSON
 fetch('js/idioms.json')
   .then(response => response.json())
   .then(data => {
@@ -39,10 +39,10 @@ fetch('js/idioms.json')
           const idiomText = document.getElementById("idiom-text");
           const translationText = document.getElementById("translation-text");
 
-          // Display the idiom
+          // Display the idiom (centered)
           idiomText.textContent = idiom.idiom;
 
-          // Display the translation, explanation, and example
+          // Display the translation, explanation, and examples (left-aligned)
           translationText.innerHTML = `
             <strong>Translation:</strong> ${idiom.translation}<br>
             <strong>Explanation:</strong> ${idiom.explanation}<br>

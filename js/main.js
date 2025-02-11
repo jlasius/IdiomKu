@@ -1,3 +1,8 @@
+// Go back to the previous page
+window.goBack = function () {
+  window.history.back();
+};
+
 // Load idioms from JSON
 fetch('js/idioms.json')
   .then(response => response.json())
@@ -69,11 +74,6 @@ fetch('js/idioms.json')
               break;
           }
         });
-
-        // Go back to the previous page
-window.goBack = function () {
-  window.history.back();
-};
 
         // Add swipe functionality for mobile devices
         let touchStartX = 0;

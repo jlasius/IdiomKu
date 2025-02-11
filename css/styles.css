@@ -24,6 +24,37 @@ body {
   border: none;
 }
 
+
+/* NEW Category Page Center the categories container and make it less wide */
+.categories-container {
+  max-width: 600px; /* Adjust this value to control the width */
+  margin: 0 auto; /* Center the container */
+  padding: 1rem;
+}
+
+/* Style for each category link */
+.category-link {
+  display: block;
+  text-align: left; /* Left-align the text inside the box */
+  padding: 1rem;
+  margin: 0.5rem 0;
+  background-color: #f8f9fa; /* Light background color */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 8px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  color: #333; /* Dark text color */
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for category links */
+.category-link:hover {
+  background-color: #e9ecef; /* Slightly darker background on hover */
+  text-decoration: none; /* Ensure no underline on hover */
+  color: #000; /* Darker text on hover */
+}
+
+
 /* NEW FOR THE FLASHCARDS Center the original idiom */
 #idiom-text {
   text-align: center;

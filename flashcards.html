@@ -8,10 +8,11 @@
   <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-  <!-- Header banner with Back button -->
+  <!-- Header banner with Back button and Logo -->
   <div class="header-banner">
-    <div class="container">
+    <div class="container d-flex justify-content-between align-items-center">
       <button class="back-button" onclick="goBack()">← Back</button>
+      <img src="images/logo.png" alt="IdiomKu Logo" style="height: 40px;">
     </div>
   </div>
 
@@ -23,7 +24,7 @@
           <div class="card-body">
             <h5 class="card-title" id="idiom-text">Click to Start</h5>
             <p class="card-text d-none" id="translation-text">Translation will appear here.</p>
-            <button class="btn btn-primary" onclick="flipCard()">Flip</button>
+            <button class="btn btn-primary" onclick="flipCard()">Flip Card</button>
           </div>
         </div>
         <div class="text-center">
@@ -39,4 +40,4 @@
   </div>
   <script src="js/main.js"></script>
 </body>
-</html>
+</html> 

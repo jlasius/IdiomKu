@@ -3,10 +3,16 @@ body {
   font-family: Arial, sans-serif;
 }
 
+
+#category-title {
+  margin-bottom: 3rem; /* Increase for more space */
+}
+
 .card {
   background-color: #fff;
   border: 2px solid #333;
   border-radius: 10px;
+  margin-top: 2rem; /* Increase for more space */
 }
 
 .btn-primary {

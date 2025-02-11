@@ -1,4 +1,4 @@
-// Load idiomes from JSON
+// Load idioms from JSON
 fetch('js/idioms.json')
   .then(response => response.json())
   .then(data => {
@@ -22,15 +22,15 @@ fetch('js/idioms.json')
           translationText.classList.toggle("d-none");
         };
 
-        // Mark as remembered
-        window.markRemembered = function () {
+        // Go to the next card
+        window.nextCard = function () {
           currentIndex = (currentIndex + 1) % categoryData.idioms.length;
           displayIdiom(categoryData.idioms[currentIndex]);
         };
 
-        // Mark for review
-        window.markReview = function () {
-          currentIndex = (currentIndex + 1) % categoryData.idioms.length;
+        // Go to the previous card
+        window.previousCard = function () {
+          currentIndex = (currentIndex - 1 + categoryData.idioms.length) % categoryData.idioms.length;
           displayIdiom(categoryData.idioms[currentIndex]);
         };
 
@@ -52,6 +52,40 @@ fetch('js/idioms.json')
 
           // Hide the translation initially
           translationText.classList.add("d-none");
+        }
+
+        // Add spacebar event listener for flipping the card
+        document.addEventListener("keydown", (event) => {
+          if (event.code === "Space") {
+            event.preventDefault(); // Prevent scrolling
+            flipCard();
+          }
+        });
+
+        // Add swipe functionality for mobile devices
+        let touchStartX = 0;
+        let touchEndX = 0;
+
+        document.addEventListener("touchstart", (event) => {
+          touchStartX = event.touches[0].clientX;
+        });
+
+        document.addEventListener("touchend", (event) => {
+          touchEndX = event.changedTouches[0].clientX;
+          handleSwipe();
+        });
+
+        function handleSwipe() {
+          const swipeThreshold = 50; // Minimum swipe distance in pixels
+          const swipeDistance = touchEndX - touchStartX;
+
+          if (swipeDistance > swipeThreshold) {
+            // Swipe right → go to the previous card
+            previousCard();
+          } else if (swipeDistance < -swipeThreshold) {
+            // Swipe left → go to the next card
+            nextCard();
+          }
         }
       }
     }

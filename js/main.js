@@ -54,11 +54,19 @@ fetch('js/idioms.json')
           translationText.classList.add("d-none");
         }
 
-        // Add spacebar event listener for flipping the card
+        // Add keyboard event listeners
         document.addEventListener("keydown", (event) => {
-          if (event.code === "Space") {
-            event.preventDefault(); // Prevent scrolling
-            flipCard();
+          switch (event.code) {
+            case "Space": // Flip card on spacebar
+              event.preventDefault(); // Prevent scrolling
+              flipCard();
+              break;
+            case "ArrowLeft": // Previous card on left arrow
+              previousCard();
+              break;
+            case "ArrowRight": // Next card on right arrow
+              nextCard();
+              break;
           }
         });
 

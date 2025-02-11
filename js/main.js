@@ -17,26 +17,19 @@ fetch('js/idioms.json')
 
         // Flip card function
         window.flipCard = function () {
-          const flashcard = document.getElementById("flashcard");
-          flashcard.classList.toggle("flipped");
+          const idiomText = document.getElementById("idiom-text");
+          const translationText = document.getElementById("translation-text");
+          translationText.classList.toggle("d-none");
         };
 
         // Go to the next card
         window.nextCard = function () {
-          const flashcard = document.getElementById("flashcard");
-          if (flashcard.classList.contains("flipped")) {
-            flashcard.classList.remove("flipped"); // Reset flip state
-          }
           currentIndex = (currentIndex + 1) % categoryData.idioms.length;
           displayIdiom(categoryData.idioms[currentIndex]);
         };
 
         // Go to the previous card
         window.previousCard = function () {
-          const flashcard = document.getElementById("flashcard");
-          if (flashcard.classList.contains("flipped")) {
-            flashcard.classList.remove("flipped"); // Reset flip state
-          }
           currentIndex = (currentIndex - 1 + categoryData.idioms.length) % categoryData.idioms.length;
           displayIdiom(categoryData.idioms[currentIndex]);
         };
@@ -56,6 +49,9 @@ fetch('js/idioms.json')
             <strong>Example (BM):</strong> ${idiom.example.BM}<br>
             <strong>Example (English):</strong> ${idiom.example.English}
           `;
+
+          // Hide the translation initially
+          translationText.classList.add("d-none");
         }
 
         // Add keyboard event listeners

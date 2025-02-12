@@ -135,4 +135,24 @@ body {
 }
 
 
+/* Footer styling */
+.footer {
+  background-color: #f8f9fa; /* Light background color */
+  padding: 1rem 0;
+  text-align: center; /* Center the text */
+  font-size: 0.9rem;
+  color: #666;
+  border-top: 1px solid #ddd; /* Subtle border at the top */
+  margin-top: 2rem; /* Space above the footer */
+}
+
+.footer a {
+  color: #4a90e2; /* Link color */
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
 

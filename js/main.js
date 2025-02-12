@@ -37,18 +37,24 @@ fetch('js/idioms.json')
           const idiomText = document.getElementById("idiom-text");
           const translationText = document.getElementById("translation-text");
           translationText.classList.toggle("d-none");
+
+          // Update aria-expanded attribute for screen readers
+          const isExpanded = !translationText.classList.contains("d-none");
+          translationText.setAttribute("aria-expanded", isExpanded);
         };
 
         // Go to the next card
         window.nextCard = function () {
           currentIndex = (currentIndex + 1) % shuffledIdioms.length;
           displayIdiom(shuffledIdioms[currentIndex]);
+          updateAriaLive("Next card loaded.");
         };
 
         // Go to the previous card
         window.previousCard = function () {
           currentIndex = (currentIndex - 1 + shuffledIdioms.length) % shuffledIdioms.length;
           displayIdiom(shuffledIdioms[currentIndex]);
+          updateAriaLive("Previous card loaded.");
         };
 
         // Display idiom
@@ -69,6 +75,10 @@ fetch('js/idioms.json')
 
           // Hide the translation initially
           translationText.classList.add("d-none");
+          translationText.setAttribute("aria-expanded", false);
+
+          // Update aria-live region for screen readers
+          updateAriaLive(`Displaying idiom: ${idiom.idiom}`);
         }
 
         // Add keyboard event listeners
@@ -79,9 +89,11 @@ fetch('js/idioms.json')
               flipCard();
               break;
             case "ArrowLeft": // Previous card on left arrow
+              event.preventDefault(); // Prevent scrolling
               previousCard();
               break;
             case "ArrowRight": // Next card on right arrow
+              event.preventDefault(); // Prevent scrolling
               nextCard();
               break;
           }
@@ -116,3 +128,18 @@ fetch('js/idioms.json')
     }
   })
   .catch(error => console.error("Error loading idioms:", error));
+
+// Function to update aria-live region for screen readers
+function updateAriaLive(message) {
+  const ariaLiveRegion = document.getElementById("aria-live-region");
+  if (!ariaLiveRegion) {
+    const newAriaLiveRegion = document.createElement("div");
+    newAriaLiveRegion.id = "aria-live-region";
+    newAriaLiveRegion.setAttribute("aria-live", "polite");
+    newAriaLiveRegion.setAttribute("aria-atomic", "true");
+    newAriaLiveRegion.style.position = "absolute";
+    newAriaLiveRegion.style.left = "-9999px";
+    document.body.appendChild(newAriaLiveRegion);
+  }
+  document.getElementById("aria-live-region").textContent = message;
+}

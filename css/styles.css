@@ -135,6 +135,34 @@ body {
 }
 
 
+/* Ensure the body and html take up the full height of the page */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Flexbox layout to push the footer to the bottom */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main content area should grow to fill available space */
+.container {
+  flex: 1;
+}
+
+/* Footer styling */
+.footer {
+  background-color: #f8f9fa; /* Light background color */
+  padding: 1rem 0;
+  text-align: center; /* Center the text */
+  font-size: 0.9rem;
+  color: #666;
+  border-top: 1px solid #ddd; /* Subtle border at the top */
+}
+
+
 /* Footer styling */
 .footer {
   background-color: #f8f9fa; /* Light background color */

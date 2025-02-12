@@ -3,30 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse categories of Malay idioms on IdiomKu.">
   <title>Categories - IdiomKu</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-  <!-- Main content -->
-  <main class="container mt-5">
-    <!-- Header banner with Back button -->
-    <div class="header-banner">
-      <div class="container">
-        <button class="back-button" onclick="goBack()">← Back</button>
-      </div>
-    </div>
+  <!-- Skip to main content link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
+  <!-- Header banner with Back button -->
+  <div class="header-banner">
+    <div class="container">
+      <button class="back-button" onclick="goBack()" aria-label="Go back to the previous page">← Back</button>
+    </div>
+  </div>
+
+  <main class="container mt-5" id="main-content">
     <h1 class="text-center">Categories</h1>
-    <div class="categories-container">
-      <a href="flashcards.html?category=emotions" class="category-link">Emosi dan Perasaan - Emotions and Feelings</a>
-      <a href="flashcards.html?category=work" class="category-link">Kerja dan Usaha - Work and Effort</a>
-      <a href="flashcards.html?category=relationships" class="category-link">Hubungan dan Interaksi Sosial - Relationships and Social Interactions</a>
-      <a href="flashcards.html?category=nature" class="category-link">Alam Semula Jadi dan Haiwan - Nature and Animals</a>
-      <a href="flashcards.html?category=success" class="category-link">Kejayaan dan Kegagalan - Success and Failure</a>
-      <a href="flashcards.html?category=wisdom" class="category-link">Hikmah dan Pengajaran Kehidupan - Wisdom and Life Lessons</a>
-      <a href="flashcards.html?category=challenges" class="category-link">Cabaran dan Perjuangan - Challenges and Struggles</a>
-      <a href="flashcards.html?category=miscellaneous" class="category-link">Macam Macam - Miscellaneous</a>
+    <div class="categories-container" role="navigation" aria-label="Categories">
+      <a href="flashcards.html?category=emotions" class="category-link" aria-label="Emotions and Feelings">Emosi dan Perasaan - Emotions and Feelings</a>
+      <a href="flashcards.html?category=work" class="category-link" aria-label="Work and Effort">Kerja dan Usaha - Work and Effort</a>
+      <a href="flashcards.html?category=relationships" class="category-link" aria-label="Relationships and Social Interactions">Hubungan dan Interaksi Sosial - Relationships and Social Interactions</a>
+      <a href="flashcards.html?category=nature" class="category-link" aria-label="Nature and Animals">Alam Semula Jadi dan Haiwan - Nature and Animals</a>
+      <a href="flashcards.html?category=success" class="category-link" aria-label="Success and Failure">Kejayaan dan Kegagalan - Success and Failure</a>
+      <a href="flashcards.html?category=wisdom" class="category-link" aria-label="Wisdom and Life Lessons">Hikmah dan Pengajaran Kehidupan - Wisdom and Life Lessons</a>
+      <a href="flashcards.html?category=challenges" class="category-link" aria-label="Challenges and Struggles">Cabaran dan Perjuangan - Challenges and Struggles</a>
+      <a href="flashcards.html?category=miscellaneous" class="category-link" aria-label="Miscellaneous">Macam Macam - Miscellaneous</a>
     </div>
   </main>
 

@@ -3,6 +3,15 @@ window.goBack = function () {
   window.history.back();
 };
 
+// Fisher-Yates shuffle algorithm to randomize array
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+  }
+  return array;
+}
+
 // Load idioms from JSON
 fetch('js/idioms.json')
   .then(response => response.json())
@@ -14,11 +23,14 @@ fetch('js/idioms.json')
     if (category) {
       const categoryData = idioms.find(cat => cat.name.toLowerCase().includes(category));
       if (categoryData) {
+        // Randomize the idioms array
+        const shuffledIdioms = shuffleArray(categoryData.idioms);
+
         document.getElementById("category-title").textContent = categoryData.name;
         let currentIndex = 0;
 
         // Display first idiom
-        displayIdiom(categoryData.idioms[currentIndex]);
+        displayIdiom(shuffledIdioms[currentIndex]);
 
         // Flip card function
         window.flipCard = function () {
@@ -29,14 +41,14 @@ fetch('js/idioms.json')
 
         // Go to the next card
         window.nextCard = function () {
-          currentIndex = (currentIndex + 1) % categoryData.idioms.length;
-          displayIdiom(categoryData.idioms[currentIndex]);
+          currentIndex = (currentIndex + 1) % shuffledIdioms.length;
+          displayIdiom(shuffledIdioms[currentIndex]);
         };
 
         // Go to the previous card
         window.previousCard = function () {
-          currentIndex = (currentIndex - 1 + categoryData.idioms.length) % categoryData.idioms.length;
-          displayIdiom(categoryData.idioms[currentIndex]);
+          currentIndex = (currentIndex - 1 + shuffledIdioms.length) % shuffledIdioms.length;
+          displayIdiom(shuffledIdioms[currentIndex]);
         };
 
         // Display idiom

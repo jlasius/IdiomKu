@@ -184,3 +184,55 @@ body {
 }
 
 
+
+
+/* Skip link styles */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  z-index: 999;
+}
+
+.skip-link:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: 0.5rem;
+  background-color: #1a73e8;
+  color: white;
+  text-align: center;
+}
+
+/* Focus styles for interactive elements */
+button:focus,
+a:focus,
+input:focus {
+  outline: 3px solid #1a73e8;
+  outline-offset: 2px;
+}
+
+/* Ensure sufficient color contrast */
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.header-banner {
+  background-color: #1a73e8;
+  color: white;
+}
+
+.category-link {
+  background-color: #f8f9fa;
+  color: #000;
+}
+
+.category-link:hover,
+.category-link:focus {
+  background-color: #e9ecef;
+  color: #000;
+}

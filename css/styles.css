@@ -62,6 +62,15 @@ body {
   color: #4a90e2;
 }
 
+/* MASCOT */
+.mascot-image {
+  width: 150px; /* Adjust size as needed */
+  height: 150px;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; /* Egg shape */
+  object-fit: cover; /* Ensures the image fits nicely */
+  border: 3px solid #1a73e8; /* Optional: Add a border */
+  margin-bottom: 1rem; /* Space below the mascot */
+}
 
 
 /* NEW Category Page Center the categories container and make it less wide */

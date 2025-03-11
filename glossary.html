@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse a full list of Malay idioms in a glossary format.">
+  <title>Glossary - IdiomKu</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Header banner with Hamburger Menu -->
+<div class="header-banner">
+  <div class="container d-flex justify-content-between align-items-center">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Learn </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="glossary.html">Glossary</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="malaysia.html">Visit Malaysia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</div>
+
+  <!-- Skip to main content link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <main class="container mt-5" id="main-content">
+    <div class="text-center">
+      <h1>Glossary of Malay Idioms</h1>
+      <p class="lead">Explore all the idioms in one place.</p>
+    </div>
+
+    <!-- Glossary Container -->
+    <div id="glossary" class="glossary-container"></div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>
+        Created by <strong>Julian L.</strong> &copy; 2025 |
+         <a href="mailto:julianrichard@gmail.com">Feedback</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Load idioms from JSON and display them
+    fetch('js/idioms.json')
+      .then(response => response.json())
+      .then(data => {
+        const glossary = document.getElementById('glossary');
+        data.categories.forEach(category => {
+          const categorySection = document.createElement('div');
+          categorySection.classList.add('category-section'); // Add a class for styling
+          categorySection.innerHTML = `
+            <h2>${category.name}</h2>
+            <ul>
+              ${category.idioms.map(idiom => `
+                <li>
+                  <strong>${idiom.idiom}</strong>: ${idiom.translation}<br>
+                  <em>${idiom.explanation}</em><br>
+                  <span class="example">Example (BM): ${idiom.example.BM}</span>
+                  <span class="example">Example (English): ${idiom.example.English}</span>
+                </li>
+              `).join('')}
+            </ul>
+          `;
+          glossary.appendChild(categorySection);
+        });
+      })
+      .catch(error => console.error('Error loading idioms:', error));
+  </script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover things to do in Malaysia, including cultural sites, art forms, legends, and natural attractions like Bako National Park and Mount Kinabalu. Get current weather in Kuala Lumpur.">
+  <title>Visit Malaysia - IdiomKu</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Header banner with Hamburger Menu -->
+  <div class="header-banner">
+    <div class="container d-flex justify-content-between align-items-center">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Learn</a> 
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="glossary.html">Glossary</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="malaysia.html">Visit Malaysia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Skip to main content link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Iconic Image Section -->
+  <div class="iconic-image-section">
+    <img src="images/cameron_highlands.jpg" alt="Cameron Highlands" class="img-fluid">
+    <div class="iconic-image-caption">
+      <h1>Visit Malaysia</h1>
+      <p class="lead">Explore the culture, history, and beauty of Malaysia.</p>
+    </div>
+  </div>
+
+  <main class="container mt-5" id="main-content">
+    <!-- Weather API Section -->
+    <div class="weather-section text-center mb-5 p-4 bg-gradient rounded">
+      <h2>Current Weather in Kuala Lumpur</h2>
+      <div id="weather" class="weather-info">
+        <p>Loading weather...</p>
+      </div>
+    </div>
+
+    <!-- Malaysian Culture and Art Forms Section -->
+    <div class="culture-art mb-5">
+      <h2>Malaysian Culture and Art Forms</h2>
+      <p>Malaysia is a melting pot of cultures, with Malay, Chinese, Indian, and indigenous influences shaping its unique identity. Here are some highlights:</p>
+      <ul class="clean-list">
+        <li>
+          <strong>Music</strong> - Listen to traditional instruments like the <em>gamelan</em> and <em>rebana</em>. Here's some Malaysian pop by renowned artists such as Zainal Abidin and Siti Nurhaliza: 
+          <div class="spotify-embed">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7iMpifLXQny3pdL8wemNDX?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </div>
+        </li>
+        <li>
+          <strong>Crafts</strong> - Discover intricate <a href="https://www.youtube.com/watch?v=gdD4JuJ4O7s" target="_blank"> <em>batik</em></a> textiles, <a href="https://ich.unesco.org/en/RL/songket-01505" target="_blank"> <em>songket</em></a> weaving, and traditional woodcarving.
+          <a href="images/durian-batik.jpeg" data-lightbox="culture" data-title="Durian Batik Art">
+            <img src="images/durian-batik.jpeg" alt="Durian Batik Art" class="img-fluid rounded mt-3" loading="lazy">
+          </a>
+        </li>
+        <li>
+          <strong>Traditional Dance</strong> - Experience the grace of Malay dances like <a href="https://www.youtube.com/watch?v=rqoQv4HtnwY" target="_blank"> <em>Joget</em></a> and <a href="https://www.youtube.com/watch?v=xvW0EgI_PU0" target="_blank"> <em>Zapin</em></a>, or the vibrant Indian <em>Bharatanatyam</em> and Chinese <em>Lion Dance</em>.
+        </li>
+        <li>
+          <strong>Wayang Kulit</strong> - A traditional <a href="https://www.eksentrika.com/wayang-kulit-at-kl/" target="_blank">shadow puppet theater</a> that tells stories from epics like the <em>Ramayana</em> and <em>Mahabharata</em>.
+          <a href="images/wayang_kulit.jpeg" data-lightbox="culture" data-title="Wayang Kulit Performance">
+            <img src="images/wayang_kulit.jpeg" alt="Wayang Kulit Performance" class="img-fluid rounded mt-3" loading="lazy">
+          </a>
+        </li>
+        <li>
+          <strong>Festivals</strong> - Celebrate cultural events like <em>Hari Raya</em>, <em>Chinese New Year</em>, <em>Deepavali</em>, and <em>Harvest Festival</em> (Pesta Kaamatan).
+          <a href="images/raya_idiomku.jpg" data-lightbox="places" data-title="Raya at Merdeka">
+                <img src="images/raya_idiomku.jpg" alt="Raya at Merdeka" class="img-fluid rounded mt-3" loading="lazy">
+              </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Malaysian Legends Section -->
+    <div class="legends mb-5">
+      <h2>Malaysian Legends and Folklore</h2>
+      <p>Malaysia is rich with legends and folklore that reflect its cultural heritage. Here are some iconic characters:</p>
+      <ul class="clean-list">
+        <li>
+          <strong>Hang Tuah</strong> - A legendary warrior and symbol of Malay loyalty and bravery. His famous quote, "<em>Takkan Melayu Hilang di Dunia</em>" (The Malays will never vanish from the world), is still celebrated today. Watch the P. Ramlee classic <a href="https://www.youtube.com/watch?v=zF_LwF9GO1s" target="_blank">Hang Tuah</a>.
+        </li>
+        <li>
+          <strong>Sang Kancil</strong> - The clever mousedeer is a popular figure in Malay folklore, often depicted outsmarting larger animals. Stories of Sang Kancil teach lessons about wit and resourcefulness. <a href="https://www.esplanade.com/offstage/arts/sang-kancil-and-the-abandoned-well" target="_blank">Sang Kancil and the Abandoned Well</a> is just one of those tales of cunning!
+        </li>
+      </ul>
+    </div>
+
+    <!-- Well-Known Cities and Places to Visit Section -->
+    <div class="cities-places mb-5">
+      <h2>Well-Known Cities and Places to Visit in Malaysia</h2>
+      <h3>Peninsular Malaysia</h3>
+      <ul class="clean-list">
+        <li>
+          <strong>Kuala Lumpur</strong> - The bustling capital city with a mix of modernity and tradition.
+          <ul class="nested-list">
+            <li>
+              <strong>Downtown KL</strong> - Explore Masjed Jamek, Dataran Merdeka, the <a href="https://www.iamm.org.my/" target="_blank">Islamic Arts Museum</a>, and the Majestic Hotel.
+              <a href="images/masjid-jamek.jpg" data-lightbox="places" data-title="Masjid Jamek">
+                <img src="images/masjid-jamek.jpg" alt="Masjid Jamek" class="img-fluid rounded mt-3" loading="lazy">
+              </a>
+            </li>
+            <li><strong>National Museum of Malaysia</strong> - A great introduction to the country's history. Visit <a href="https://www.muziumnegara.gov.my/en" target="_blank">here</a>.</li>
+            <li><strong>Central Market (Pasar Seni)</strong> - A historical and cultural hub for crafts and souvenirs.</li>
+            <li><strong>Batu Caves</strong> - A Hindu shrine set in a dramatic mountain landscape. Directions <a href="https://goo.gl/maps/Woi5nruMpfNg7M1K6" target="_blank">here</a>.
+                      <a href="images/Batu_Caves_idiomku.jpg" data-lightbox="culture" data-title="Batu Caves">
+            <img src="images/Batu_Caves_idiomku.jpg" alt="Batu Caves" class="img-fluid rounded mt-3" loading="lazy">
+              </a>
+            </li>
+            <li><strong>Chinatown</strong> - Visit the <a href="https://goo.gl/maps/VLy2BBHaUAtSF5d89" target="_blank">Chan She Shu Yuen Clan Ancestral Hall</a> or explore Petaling Jaya for everyday Chinese Malaysian life.</li>
+            <li><strong>Brickfields</strong> - Known as Little India, with vibrant architecture and culture.</li>
+            <li><strong>Petronas Twin Towers</strong> - Iconic skyscrapers with a stunning view. 
+            <a href="images/petronas_towers.jpg" data-lightbox="places" data-title="Petronas Towers">
+                <img src="images/petronas_towers.jpg" alt="Petronas Towers" class="img-fluid rounded mt-3" loading="lazy">
+              </a>
+            </li>
+            <li><strong>Ilham Gallery</strong> - A contemporary art gallery near Petronas Towers. Visit <a href="http://www.ilhamgallery.com" target="_blank">Ilham Gallery</a>.</li>
+            <li><strong>Kuala Lumpur Bird Park</strong> - A serene spot for nature lovers. Learn more at <a href="https://www.klbirdpark.com" target="_blank">KL Bird Park</a>.
+             <a href="images/KL Bird Park.jpeg" data-lightbox="places" data-title="KL Bird Park">
+                <img src="images/KL Bird Park.jpeg" alt="KL Bird Park" class="img-fluid rounded mt-3" loading="lazy">
+             </a>      
+            </li>
+            <li><strong>Bangsar</strong> - A walkable expat neighborhood with local eateries like <a href="https://goo.gl/maps/Fv9YqWrJKD6zhzRN8" target="_blank">Devis Corner</a> for banana leaf meals.</li>
+          </ul>
+        </li>
+        <li><strong>Penang/Georgetown</strong> - A UNESCO World Heritage Site with rich overseas Chinese culture. Explore <a href="https://goo.gl/maps/MT7tCLybuL5aGVfA8" target="_blank">Georgetown</a>.
+      <a href="images/Penang Idiomku.jpg" data-lightbox="places" data-title="Penang">
+                <img src="images/Penang Idiomku.jpg" alt="Penang" class="img-fluid rounded mt-3" loading="lazy">
+             </a>      
+        </li>
+        <li><strong>Ipoh</strong> - A city with a strong tin mining history. Visit the <a href="https://en.wikipedia.org/wiki/Han_Chin_Pet_Soo" target="_blank">Han Chin Pet Soo Museum</a>.</li>
+        <li><strong>Melaka</strong> - A historical city with Peranakan culture. Learn more <a href="https://en.wikipedia.org/wiki/Malacca" target="_blank">here</a>.
+          <a href="images/Malacca_Idiomku.jpg" data-lightbox="places" data-title="Malacca">
+                <img src="images/Malacca_Idiomku.jpg" alt="Malacca" class="img-fluid rounded mt-3" loading="lazy">
+             </a>      
+        </li>
+        <li><strong>Cameron Highlands</strong> - A cool highland retreat known for its tea plantations, strawberry farms, and hiking trails. Learn more about <a href="https://wikitravel.org/en/Cameron_Highlands" target="_blank">Cameron Highlands</a>.</li>
+        <li><strong>Langkawi Geopark</strong> - A UNESCO-listed geopark with stunning landscapes, mangrove forests, and pristine beaches. Explore <a href="https://www.langkawigeopark.com.my/" target="_blank">Langkawi Geopark</a>.</li>
+        <li><strong>Tioman and Perhentian Islands</strong> - Beautiful beaches less touristy than Langkawi.
+        <a href="images/Tioman_island_idiomku.jpg" data-lightbox="places" data-title="Tioman Island">
+                <img src="images/Tioman_island_idiomku.jpg" alt="Tioman Island" class="img-fluid rounded mt-3" loading="lazy">
+             </a>
+        </li>
+      </ul>
+
+      <h3>East Malaysia (Borneo)</h3>
+      <ul class="clean-list">
+        <li>
+          <strong>Bako National Park</strong> - Located in Sarawak, this park is known for its diverse wildlife, hiking trails, and unique coastal formations. Learn more about <a href="https://bakonationalpark.com/" target="_blank">Bako National Park</a>.
+          <a href="images/bako_park_alt.jpeg" data-lightbox="places" data-title="Bako National Park">
+            <img src="images/bako_park_alt.jpeg" alt="Bako National Park" class="img-fluid rounded mt-3" loading="lazy">
+          </a>
+        </li>
+        <li><strong>Mulu Caves</strong> - A UNESCO World Heritage Site in Sarawak. Visit <a href="https://mulupark.com/" target="_blank">Mulu Caves</a>.
+         <a href="images/mulu_caves.jpeg" data-lightbox="places" data-title="Mulu Caves">
+            <img src="images/mulu_caves.jpeg" alt="Mulu Caves" class="img-fluid rounded mt-3" loading="lazy">
+          </a>
+</li>
+        <li><strong>Kinabatangan River</strong> - Located in Sabah, this river is famous for its wildlife, including proboscis monkeys, pygmy elephants, and orangutans. Discover <a href="https://www.tripadvisor.com/Attraction_Review-g298306-d945745-Reviews-Kinabatangan_River-Sabah.html" target="_blank">Kinabatangan River</a>.</li>
+        <li>
+          <strong>Mount Kinabalu</strong> - The highest peak in Southeast Asia. Explore <a href="https://goo.gl/maps/fZs5rngRVLS1x7iS6" target="_blank">Mount Kinabalu</a>.
+          <a href="images/Mount Kinabalu.jpg" data-lightbox="places" data-title="Mount Kinabalu">
+            <img src="images/Mount Kinabalu.jpg" alt="Mount Kinabalu" class="img-fluid rounded mt-3" loading="lazy">
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Additional Resources -->
+    <div class="resources mb-5">
+      <h2>Additional Resources</h2>
+      <ul class="clean-list">
+        <li><a href="https://www.malaysia.travel/" target="_blank">Tourism Malaysia</a></li>
+        <li><a href="https://www.lonelyplanet.com/malaysia" target="_blank">Lonely Planet Malaysia Guide</a></li>
+      </ul>
+    </div>
+
+<!-- Credits Section -->
+<div class="credits-section mt-5 mb-3">
+  <h2>Picture Credits</h2>
+  <ul class="list-unstyled">
+    <li>Cameron Highlands picture by <a href="https://cdn.audleytravel.com/1400/999/60/15996808-tea-plantation-in-the-cameron-highlands.webp" target="_blank">Audley Travel</a></li>
+    <li>Durian Batik image was AI generated </li>
+    <li>Wayang Kulit image from <a href="https://www.eksentrika.com/wayang-kulit-at-kl/" target="_blank">Eksentrika</a></li>
+    <li>Ramadan in downtown image from <a href="http://www.xinhuanet.com/english/2018-06/03/c_137226190_3.htm" target="_blank">Xinhuanet</a></li>
+    <li>Masjed Jamek image from <a href="https://www.tripadvisor.co.id/Attraction_Review-g298570-d456588-Reviews-Jamek_Mosque-Kuala_Lumpur_Wilayah_Persekutuan.html" target="_blank">Tripadvisor</a></li>
+    <li>Batu Caves image from <a href="https://www.headout.com/blog/batu-caves/" target="_blank">Headout</a></li>
+    <li>Petronas Towers image from <a href="https://www.thorntontomasetti.com/project/petronas-twin-towers" target="_blank">Thornton Tomasetti</a></li>
+    <li>KL Bird Park image from <a href="https://www.headout.com/kuala-lumpur-bird-park-c-3777/" target="_blank">Headout</a></li>
+    <li>Penang Kek Lok Si Temple image from <a href="https://www.airbnb.com/penang-malaysia/stays" target="_blank">Airbnb</a></li>
+    <li>Christ Church Melaka image from <a href="https://www.bordersofadventure.com/what-to-do-in-melaka-malaysia/" target="_blank">Borders of Adventure</a></li>
+    <li>Tioman and Perhentian image from <a href="https://www.insideasiatours.com/us/malaysia/tioman-island" target="_blank">Inside Asia Tours</a></li>
+    <li>Bako National Park - my own photo</li>
+    <li>Mulu Caves image from <a href="https://www.mulunationalpark.com/" target="_blank">Mulu National Park</a></li>
+    <li>Mt Kinabalu image from <a href="https://sabahtravelguide.com/eng/our-destination/mount-kinabalu-a-centre-for-plant-diversity-in-asia-it-contain-half-of-borneo-plants-species/" target="_blank">Sabah Travel Guide</a></li>
+  </ul>
+</div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>
+        Created by <strong>Julian L.</strong> &copy; 2025 |
+         <a href="mailto:julianrichard@gmail.com">Feedback</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    // Weather API Integration
+    const apiKey = '5ad8ac241f5b898f437ebbb8489a6bc2'; // Replace with your API key
+    const city = 'Kuala Lumpur';
+    const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
+    
+    fetch(weatherUrl)
+      .then(response => response.json())
+      .then(data => {
+        const weather = data.weather[0].description;
+        const temp = data.main.temp;
+        const icon = data.weather[0].icon; // Weather icon code
+        const iconUrl = `http://openweathermap.org/img/wn/${icon}@2x.png`; // URL for the weather icon
+
+        document.getElementById('weather').innerHTML = `
+          <p>${weather}, ${temp}°F</p>
+          <img src="${iconUrl}" alt="${weather}">
+        `;
+      })
+      .catch(error => console.error('Error fetching weather:', error));
+  </script>
+</body>
+</html>

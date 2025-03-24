@@ -511,6 +511,15 @@
       }
   },
   {
+        "idiom": "Raja sehari",
+        "translation": "King/Queen for a day",
+        "explanation": "Refers to a bride or groom on their wedding day, treated like royalty for that special occasion.",
+        "example": {
+            "BM": "Pengantin itu diraikan seperti raja sehari.",
+            "English": "The bride and groom were celebrated like royalty for a day."
+        }
+    },        
+  {
       "idiom": "Bersahabat baik",
       "translation": "Being good friends.",
       "explanation": "Having a close and positive friendship.",
@@ -973,9 +982,18 @@
     "example": {
       "BM": "Jika kamu membuat keputusan itu, kamu harus masuk bakul angkat sendiri.",
       "English": "If you make that decision, you must put it into the basket and carry it yourself."
+              }
+        },
+        {
+        "idiom": "Ulat buku",
+        "translation": "Bookworm",
+        "explanation": "Someone who loves to read and study intensely.",
+        "example": {
+            "BM": "Sejak kecil, dia memang ulat buku, selalu menghabiskan masa di perpustakaan.",
+            "English": "Since childhood, he has been a bookworm, always spending time in the library."
+        }
     }
-  }
-            ]
+      ]
     },
     {
       "name": "Challenges and Struggles",

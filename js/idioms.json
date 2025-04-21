@@ -4,6 +4,15 @@
       "name": "Emotions and Feelings",
       "idioms": [
         {
+        "idiom": "Ada hati",
+        "translation": "Have feelings/desire",
+        "explanation": "To have a desire or intention, often romantically or ambitiously.",
+        "example": {
+          "BM": "Dia ada hati dengan gadis itu sejak lama.",
+          "English": "He has had feelings for that girl for a long time."
+          }
+        },
+        {
           "idiom": "Hati berbunga-bunga",
           "translation": "Heart blooming with flowers.",
           "explanation": "Feeling extremely happy or excited.",
@@ -94,6 +103,15 @@
         }
     },
         {
+      "idiom": "Iri hati",
+      "translation": "Envy",
+      "explanation": "Feeling jealous of someone else’s success or possessions.",
+      "example": {
+        "BM": "Dia iri hati melihat kejayaan rakannya.",
+        "English": "He felt envious of his friend’s success."
+      }
+    },
+        {
     "idiom": "Makan hati",
     "translation": "Eat liver.",
     "explanation": "Feeling hurt, upset, or emotionally distressed.",
@@ -102,6 +120,24 @@
       "English": "She felt hurt because she was left by her lover."
     }
   },
+        {
+      "idiom": "Mata duitan",
+      "translation": "Greedy for money",
+      "explanation": "A person who is obsessed with money or material gain.",
+      "example": {
+        "BM": "Jangan jadi mata duitan sampai sanggup tipu orang.",
+        "English": "Don’t be so greedy that you’re willing to deceive others."
+      }
+    },
+    {
+      "idiom": "Rambang mata",
+      "translation": "Overwhelmed by choices",
+      "explanation": "To be dazzled or confused by too many options.",
+      "example": {
+        "BM": "Saya rambang mata tengok semua pakaian cantik di kedai itu.",
+        "English": "I was overwhelmed by all the beautiful clothes in the store."
+      }
+    },
     {
         "idiom": "Rasa hati",
         "translation": "Feeling of the heart.",
@@ -128,6 +164,15 @@
             "BM": "Selepas selesaikan masalah, hati saya sejuk.",
             "English": "After solving the problem, my heart felt at peace."
         }
+    },
+    {
+      "idiom": "Senyum kambing",
+      "translation": "Sheepish smile",
+      "explanation": "A shy or awkward smile, often when caught doing something wrong.",
+      "example": {
+        "BM": "Dia hanya mampu beri senyum kambing selepas ditangkap meniru.",
+        "English": "He could only give a sheepish smile after getting caught cheating."
+      }
     },
     {
         "idiom": "Tegang hati",
@@ -215,6 +260,15 @@
       "English": "Try the new one first before making a decision."
     }
   },
+  {
+      "idiom": "Gaji buta",
+      "translation": "Unearned salary",
+      "explanation": "Getting paid without doing any real work.",
+      "example": {
+        "BM": "Kalau datang kerja tapi tak buat apa-apa, itu gaji buta namanya.",
+        "English": "If you come to work and do nothing, that’s called getting paid for nothing."
+      }
+    },
     {
       "idiom": "Mendapat durian runtuh",
       "translation": "Getting a windfall.",
@@ -222,17 +276,17 @@
       "example": {
         "BM": "Dia mendapat durian runtuh apabila memenangi loteri.",
         "English": "He got a windfall when he won the lottery."
-    }
-},
-        {
-            "idiom": "Ringan tulang",
-            "translation": "Light bones.",
-            "explanation": "Being hardworking and diligent.",
-            "example": {
-                "BM": "Dia ringan tulang, sentiasa membantu ibunya di dapur.",
-                "English": "He’s hardworking, always helping his mother in the kitchen."
-            }
-        },
+      }
+    },
+    {
+        "idiom": "Ringan tulang",
+        "translation": "Hardworking",
+        "explanation": "Someone who is always willing to help or work hard.",
+        "example": {
+          "BM": "Dia memang ringan tulang, semua kerja dia tolong buat.",
+          "English": "She’s really hardworking—she helps with everything."
+        }
+    },
         {
             "idiom": "Berat hati",
             "translation": "Heavy heart.",
@@ -252,6 +306,15 @@
             }
         },
         {
+      "idiom": "Mandi peluh",
+      "translation": "Work very hard",
+      "explanation": "To work very hard or laboriously.",
+      "example": {
+        "BM": "Dia mandi peluh untuk menyiapkan kerja dalam masa yang ditetapkan.",
+        "English": "He was drenched in sweat trying to finish the work on time."
+        }
+      },
+      {
             "idiom": "Menggali lubang sendiri",
             "translation": "Digging your own hole.",
             "explanation": "Creating problems for yourself through your actions.",
@@ -419,7 +482,34 @@
             "English": "Even though we argue, family ties cannot be broken."
           }
         },
-  {
+            {
+      "idiom": "Anak angkat",
+      "translation": "Adopted child",
+      "explanation": "A child who is adopted into a family.",
+      "example": {
+        "BM": "Mereka melayan anak angkat mereka seperti anak kandung.",
+        "English": "They treat their adopted child like their own."
+      }
+    },
+    {
+      "idiom": "Anak bongsu",
+      "translation": "Youngest child",
+      "explanation": "The youngest child in a family.",
+      "example": {
+        "BM": "Anak bongsu itu sangat manja dengan ibunya.",
+        "English": "The youngest child is very pampered by his mother."
+      }
+    },
+    {
+    "idiom": "Anak emas",
+    "translation": "Golden child.",
+    "explanation": "A favored or cherished person, often receiving special treatment or attention.",
+    "example": {
+        "BM": "Ali adalah anak emas dalam keluarganya kerana dia selalu mendapat perhatian lebih.",
+        "English": "Ali is the golden child in his family because he always gets extra attention."
+      }
+    },
+    {
       "idiom": "Besar kepala",
       "translation": "Big head.",
       "explanation": "Being arrogant or full of oneself.",
@@ -427,8 +517,17 @@
           "BM": "Sejak dia naik pangkat, dia jadi besar kepala.",
           "English": "Since he got promoted, he’s become arrogant."
       }
-  },
-  {
+    },
+    {
+      "idiom": "Buah mulut",
+      "translation": "Talk of the town",
+      "explanation": "Something or someone everyone is talking about, usually gossip or a trending topic.",
+      "example": {
+        "BM": "Perkahwinan selebriti itu menjadi buah mulut orang ramai.",
+        "English": "The celebrity wedding became the talk of the town."
+      }
+    },
+    {
       "idiom": "Buat baik berpada-pada",
       "translation": "Do good in moderation.",
       "explanation": "Don’t overdo kindness, as it can be taken advantage of.",
@@ -437,16 +536,6 @@
           "English": "Don’t be too nice to him; do good in moderation."
       }
   },
-  {
-    "idiom": "Anak emas",
-    "translation": "Golden child.",
-    "explanation": "A favored or cherished person, often receiving special treatment or attention.",
-    "example": {
-        "BM": "Ali adalah anak emas dalam keluarganya kerana dia selalu mendapat perhatian lebih.",
-        "English": "Ali is the golden child in his family because he always gets extra attention."
-      }
-  },
-      
   {
       "idiom": "Cakap tak serupa bikin",
       "translation": "Words don’t match actions.",
@@ -502,6 +591,15 @@
       }
   },
   {
+      "idiom": "Khabar angin",
+      "translation": "Rumor",
+      "explanation": "Unverified news or gossip, often spread informally.",
+      "example": {
+        "BM": "Itu cuma khabar angin, jangan mudah percaya.",
+        "English": "That’s just a rumor, don’t believe it too easily."
+      }
+    },
+    {
       "idiom": "Berkawan biar seribu, berkelahi biar satu",
       "translation": "Make a thousand friends, but only fight with one.",
       "explanation": "It’s better to have many friends than many enemies.",
@@ -509,8 +607,17 @@
           "BM": "Berkawan biar seribu, berkelahi biar satu, jangan cari musuh.",
           "English": "Make a thousand friends, but only fight with one; don’t seek enemies."
       }
-  },
-  {
+    },
+    {
+      "idiom": "Pilih kasih",
+      "translation": "Favoritism",
+      "explanation": "To treat others unequally by showing preference.",
+      "example": {
+        "BM": "Guru itu dituduh pilih kasih terhadap pelajar tertentu.",
+        "English": "The teacher was accused of showing favoritism to certain students."
+      }
+    },
+    {
         "idiom": "Raja sehari",
         "translation": "King/Queen for a day",
         "explanation": "Refers to a bride or groom on their wedding day, treated like royalty for that special occasion.",
@@ -519,7 +626,7 @@
             "English": "The bride and groom were celebrated like royalty for a day."
         }
     },        
-  {
+    {
       "idiom": "Bersahabat baik",
       "translation": "Being good friends.",
       "explanation": "Having a close and positive friendship.",
@@ -527,8 +634,17 @@
           "BM": "Mereka bersahabat baik sejak kecil.",
           "English": "They have been good friends since childhood."
       }
-  },
-  {
+    },
+    {
+      "idiom": "Saudara baru",
+      "translation": "New convert",
+      "explanation": "A person who has recently converted to a new religion.",
+      "example": {
+        "BM": "Mereka menyambut saudara baru itu dengan mesra.",
+        "English": "They welcomed the new convert warmly."
+      }
+    },
+    {
       "idiom": "Bersikap terbuka",
       "translation": "Being open-minded.",
       "explanation": "Willing to accept new ideas or opinions.",
@@ -536,8 +652,8 @@
           "BM": "Dalam perbincangan, kita perlu bersikap terbuka.",
           "English": "In discussions, we need to be open-minded."
       }
-  },
-  {
+    },
+    {
       "idiom": "Bersuara hati",
       "translation": "Speaking from the heart.",
       "explanation": "Expressing genuine feelings or thoughts.",
@@ -545,8 +661,8 @@
           "BM": "Dia bersuara hati tentang masalah yang dihadapinya.",
           "English": "He spoke from the heart about the problems he faced."
       }
-  },
-  {
+    },
+    {
       "idiom": "Bertepuk sebelah tangan",
       "translation": "Clapping with one hand.",
       "explanation": "A one-sided effort or unrequited love.",
@@ -554,8 +670,8 @@
           "BM": "Hubungan mereka seperti bertepuk sebelah tangan.",
           "English": "Their relationship is like clapping with one hand—one-sided."
       }
-  },
-  {
+    },
+    {
       "idiom": "Berukir nama",
       "translation": "Carving a name.",
       "explanation": "Making a name for oneself.",
@@ -563,8 +679,8 @@
           "BM": "Dia berusaha berukir nama dalam bidang seni.",
           "English": "He’s trying to make a name for himself in the arts."
       }
-  },
-  {
+    },
+    {
       "idiom": "Buang muka",
       "translation": "Throwing away one’s face.",
       "explanation": "Losing face or being embarrassed.",
@@ -572,8 +688,8 @@
           "BM": "Dia buang muka kerana gagal dalam pertandingan.",
           "English": "He lost face because he failed in the competition."
       }
-  },
-  {
+    },
+    {
       "idiom": "Cari pasal",
       "translation": "Looking for trouble.",
       "explanation": "Deliberately causing problems.",
@@ -581,8 +697,8 @@
           "BM": "Jangan cari pasal dengan jiran kita.",
           "English": "Don’t look for trouble with our neighbor."
       }
-  },
-  {
+    },
+    {
       "idiom": "Cari nama",
       "translation": "Looking for fame.",
       "explanation": "Seeking recognition or popularity.",
@@ -590,8 +706,8 @@
           "BM": "Dia cari nama dengan menyertai banyak pertandingan.",
           "English": "He’s seeking fame by joining many competitions."
       }
-  },
-  {
+    },
+    {
       "idiom": "Cari untung",
       "translation": "Looking for profit.",
       "explanation": "Seeking personal gain.",
@@ -605,7 +721,25 @@
     {
       "name": "Nature and Animals",
       "idioms": [
-        {
+      {
+        "idiom": "Akal kancil",
+        "translation": "Clever like a mousedeer",
+        "explanation": "Describes someone who is clever or cunning.",
+        "example": {
+          "BM": "Dia gunakan akal kancil untuk melepaskan diri dari masalah itu.",
+          "English": "He used his wit like the mousedeer to get out of trouble."
+        }
+      },
+      {
+      "idiom": "Alim-alim kucing",
+      "translation": "Pretending to be pious",
+      "explanation": "Pretending to be good or innocent, but actually cunning.",
+      "example": {
+        "BM": "Dia nampak alim-alim kucing, tapi sebenarnya licik.",
+        "English": "He looks pious, but he’s actually sly."
+        }
+      },
+      {
           "idiom": "Bagai aur dengan tebing",
           "translation": "Like bamboo and the riverbank.",
           "explanation": "A close and inseparable relationship.",
@@ -745,6 +879,16 @@
             "English": "It was hard at first, but practice made it easier."
           }
         },
+       {
+          "idiom": "Batu loncatan",
+          "translation": "Stepping stone",
+          "explanation": "Something used as a means to achieve a greater goal or advancement.",
+          "example": {
+            "BM": "Kerja ini hanya batu loncatan untuk kerjaya yang lebih baik.",
+            "English": "This job is just a stepping stone to a better career."
+          }
+        },
+
         {
           "idiom": "Berat sama dipikul, ringan sama dijinjing",
           "translation": "Heavy burdens are carried together, light ones are lifted together.",
@@ -782,12 +926,30 @@
               }
           },
           {
+            "idiom": "Jalan buntu",
+            "translation": "Dead end",
+            "explanation": "A situation with no solution or way out.",
+            "example": {
+              "BM": "Kami menemui jalan buntu dalam perbincangan itu.",
+              "English": "We reached a dead end in that discussion."
+            }
+          },
+          {
               "idiom": "Kalau tidak dipecahkan ruyung, manakan dapat sagunya",
               "translation": "If you don’t break the coconut husk, how will you get the flesh?",
               "explanation": "You have to work hard to achieve success.",
               "example": {
                   "BM": "Kalau tidak dipecahkan ruyung, manakan dapat sagunya.",
                   "English": "If you don’t work hard, you won’t achieve success."
+              }
+          },
+          {
+            "idiom": "Langkah kanan",
+            "translation": "Good start",
+            "explanation": "Having good fortune or a positive beginning in something.",
+            "example": {
+              "BM": "Hari pertama kerja saya dimulai dengan langkah kanan.",
+              "English": "My first day at work started on the right foot."
               }
           },
           {
@@ -807,6 +969,15 @@
                   "BM": "Dia sambil menyelam minum air dengan menyelesaikan dua projek serentak.",
                   "English": "He killed two birds with one stone by completing two projects at once."
               }
+          },
+          {
+            "idiom": "Sampai hajat",
+            "translation": "Wish fulfilled",
+            "explanation": "To achieve or obtain what one has long desired.",
+            "example": {
+              "BM": "Akhirnya dia sampai hajat untuk melanjutkan pelajaran ke luar negara.",
+              "English": "He finally fulfilled his dream of studying abroad."
+            }
           },
           {
               "idiom": "Sedikit-sedikit, lama-lama jadi bukit",
@@ -894,6 +1065,15 @@
       "English": "He went through the salt and sour of life before succeeding."
     }
   },
+        {
+            "idiom": "Bekas tangan",
+            "translation": "Used by someone else",
+            "explanation": "Refers to something previously owned, used, or in a relationship with another person.",
+            "example": {
+              "BM": "Telefon itu cuma bekas tangan, tapi masih elok digunakan.",
+              "English": "The phone is secondhand, but still in good condition."
+            }
+          },
           {
               "idiom": "Biarpun sepandai-pandai tupai melompat, sekali-sekala jatuh juga",
               "translation": "No matter how clever a squirrel is at jumping, it will still fall sometimes.",
@@ -902,6 +1082,15 @@
                   "BM": "Jangan terlalu yakin, biarpun sepandai-pandai tupai melompat, sekali-sekala jatuh juga.",
                   "English": "Don’t be overconfident; even the cleverest squirrel falls sometimes."
               }
+          },
+         {
+          "idiom": "Buah tangan",
+          "translation": "Souvenir",
+          "explanation": "A gift or small present brought from a trip or visit.",
+          "example": {
+            "BM": "Dia membawa buah tangan dari kampung untuk kami.",
+            "English": "She brought souvenirs from her hometown for us."
+          }
           },
           {
               "idiom": "Di mana ada kemahuan, di situ ada jalan",
@@ -985,6 +1174,15 @@
               }
         },
         {
+          "idiom": "Tanda mata",
+          "translation": "Token of appreciation",
+          "explanation": "A gift or item given as a souvenir or memento.",
+          "example": {
+            "BM": "Saya beri dia cenderamata sebagai tanda mata.",
+            "English": "I gave her a keepsake as a token of remembrance."
+        }
+      },
+      {
         "idiom": "Ulat buku",
         "translation": "Bookworm",
         "explanation": "Someone who loves to read and study intensely.",
@@ -992,7 +1190,7 @@
             "BM": "Sejak kecil, dia memang ulat buku, selalu menghabiskan masa di perpustakaan.",
             "English": "Since childhood, he has been a bookworm, always spending time in the library."
         }
-    }
+      }
       ]
     },
     {
@@ -1016,7 +1214,16 @@
             "English": "In a family, we must share responsibilities equally."
           }
         },
-         {
+        {
+      "idiom": "Bergadai nyawa",
+      "translation": "Risking life",
+      "explanation": "To sacrifice one’s life or face extreme danger for something important.",
+      "example": {
+        "BM": "Anggota bomba bergadai nyawa untuk menyelamatkan mangsa.",
+        "English": "The firefighters risked their lives to save the victims."
+      }
+    },
+    {
     "idiom": "Bidan terjun",
     "translation": "Midwife jumps.",
     "explanation": "Refers to someone who takes on a task or responsibility without proper preparation or expertise.",
@@ -1062,6 +1269,15 @@
               }
           },
           {
+            "idiom": "Langkah seribu",
+            "translation": "Flee quickly",
+            "explanation": "To run away quickly, usually from fear or danger.",
+            "example": {
+              "BM": "Mereka langkah seribu bila nampak anjing itu datang.",
+              "English": "They ran for their lives when they saw the dog coming."
+            }
+          },
+          {
               "idiom": "Lautan api",
               "translation": "Ocean of fire.",
               "explanation": "Facing extreme difficulties.",
@@ -1089,6 +1305,15 @@
               }
           },
           {
+            "idiom": "Tangan terbuka",
+            "translation": "With open arms",
+            "explanation": "To welcome someone sincerely and warmly.",
+            "example": {
+              "BM": "Mereka menerima tetamu itu dengan tangan terbuka.",
+              "English": "They welcomed the guest with open arms."
+            }
+          },
+          {
               "idiom": "Terbang tinggi, jatuh sakit",
               "translation": "Flying high, falling painfully.",
               "explanation": "Overconfidence can lead to failure.",
@@ -1101,9 +1326,6 @@
     },
 
 
-
-
-
     {
       "name": "Miscellaneous",
       "idioms": [
@@ -1114,6 +1336,24 @@
           "example": {
             "BM": "Ada asap ada api, mungkin ada kebenaran dalam khabar itu.",
             "English": "Where there’s smoke, there’s fire; there might be some truth to the rumor."
+          }
+        },
+        {
+          "idiom": "Alas perut",
+          "translation": "Small meal",
+          "explanation": "A light meal to ease hunger temporarily.",
+          "example": {
+            "BM": "Saya makan kuih sebagai alas perut sebelum makan tengah hari.",
+            "English": "I had some snacks to tide me over before lunch."
+          }
+        },
+        {
+          "idiom": "Angkat bakul",
+          "translation": "Self-praise",
+          "explanation": "To boast or praise oneself.",
+          "example": {
+            "BM": "Dia suka angkat bakul sendiri tentang kejayaannya.",
+            "English": "He loves to boast about his own success."
           }
         },
         {
@@ -1143,34 +1383,61 @@
             "English": "Their relationship is like flesh and nails—very close."
           }
         },
-  {
-      "idiom": "Besar pasak daripada tiang",
-      "translation": "The peg is bigger than the post.",
-      "explanation": "Spending more than you earn.",
-      "example": {
-          "BM": "Jangan besar pasak daripada tiang, nanti susah.",
-          "English": "Don’t spend more than you earn, or you’ll face difficulties."
-      }
-  },
-  {
-      "idiom": "Biar putih tulang, jangan putih mata",
-      "translation": "Better to die than to be humiliated.",
-      "explanation": "Pride is more important than life.",
-      "example": {
-          "BM": "Dia lebih rela biar putih tulang, jangan putih mata.",
-          "English": "He’d rather die than be humiliated."
-      }
-  },
-  {
-      "idiom": "Cakap tak serupa bikin",
-      "translation": "Words don’t match actions.",
-      "explanation": "Someone who doesn’t keep their promises.",
-      "example": {
-          "BM": "Dia selalu cakap nak tolong, tapi cakap tak serupa bikin.",
-          "English": "He always says he’ll help, but his words don’t match his actions."
-      }
-  },
-  {
+        {
+          "idiom": "Banyak mulut",
+          "translation": "Talkative",
+          "explanation": "Talks too much or gossips often.",
+          "example": {
+            "BM": "Dia memang banyak mulut dan suka mencampuri urusan orang.",
+            "English": "She's very talkative and loves to interfere in others' business."
+          }
+        },
+        {
+          "idiom": "Batu api",
+          "translation": "Instigator",
+          "explanation": "A person who provokes or stirs up conflict.",
+          "example": {
+            "BM": "Jangan jadi batu api dalam pertengkaran mereka.",
+            "English": "Don’t be an instigator in their argument."
+          }
+        },
+        {
+            "idiom": "Besar pasak daripada tiang",
+            "translation": "The peg is bigger than the post.",
+            "explanation": "Spending more than you earn.",
+            "example": {
+                "BM": "Jangan besar pasak daripada tiang, nanti susah.",
+                "English": "Don’t spend more than you earn, or you’ll face difficulties."
+            }
+        },
+        {
+            "idiom": "Biar putih tulang, jangan putih mata",
+            "translation": "Better to die than to be humiliated.",
+            "explanation": "Pride is more important than life.",
+            "example": {
+                "BM": "Dia lebih rela biar putih tulang, jangan putih mata.",
+                "English": "He’d rather die than be humiliated."
+            }
+        },
+        {
+          "idiom": "Bulat kata",
+          "translation": "Unified decision",
+          "explanation": "A decision made with full agreement among all parties.",
+          "example": {
+            "BM": "Keputusan itu dibuat setelah bulat kata antara semua ahli.",
+            "English": "The decision was made after unanimous agreement among all members."
+          }
+        },
+        {
+            "idiom": "Cakap tak serupa bikin",
+            "translation": "Words don’t match actions.",
+            "explanation": "Someone who doesn’t keep their promises.",
+            "example": {
+                "BM": "Dia selalu cakap nak tolong, tapi cakap tak serupa bikin.",
+                "English": "He always says he’ll help, but his words don’t match his actions."
+            }
+        },
+        {
       "idiom": "Diam-diam ubi berisi",
       "translation": "Quietly, the yam is full.",
       "explanation": "Quiet people often have hidden talents.",
@@ -1295,7 +1562,15 @@
           "BM": "Dia dapat putih mata kerana gagal dalam ujian.",
           "English": "He felt humiliated because he failed the test."
       }
-  }
+  },    {
+      "idiom": "Tangkai jering",
+      "translation": "Stingy person",
+      "explanation": "Someone who is very miserly or unwilling to spend money.",
+      "example": {
+        "BM": "Dia memang tangkai jering, susah nak belanja orang.",
+        "English": "He’s really stingy—he hardly ever treats anyone."
+      }
+    }
       ]
     }
   ]

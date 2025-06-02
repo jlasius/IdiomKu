@@ -113,6 +113,13 @@ p {
   border-radius: 4px;
 }
 
+.nav-link.active {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  font-weight: 600;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
 /* Iconic Image Section */
 .iconic-image-section {
   text-align: center;
@@ -539,6 +546,11 @@ p {
   .category-link:hover {
     background-color: #e0e0e0;
     color: #1a73e8;
+  }
+
+  .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.4);
   }
 
   #translation-text {

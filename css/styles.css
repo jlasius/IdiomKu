@@ -41,7 +41,7 @@ p {
 /* Header Banner */
 .header-banner {
   background-color: #4a90e2;
-  padding: 1.25rem;
+  padding: 1rem 0;
   color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: sticky;
@@ -51,7 +51,13 @@ p {
 
 .navbar {
   background-color: #4a90e2 !important;
-  padding: 0;
+  padding: 0.5rem 0;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: white !important;
 }
 
 .navbar-toggler {
@@ -59,9 +65,8 @@ p {
   border-radius: 4px;
   padding: 0.5rem;
   background-color: transparent;
-  margin-right: auto;
-  margin-left: 0;
   transition: background-color 0.3s ease, border-color 0.3s ease;
+  margin-left: auto;
 }
 
 .navbar-toggler-icon {
@@ -77,46 +82,53 @@ p {
 
 .navbar-toggler:focus {
   outline: none;
-  box-shadow: none;
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
 }
 
 .navbar-collapse {
-  background-color: #4a90e2;
-  border-radius: 8px;
-  padding: 1rem;
-  transition: height 0.3s ease-in-out;
-  height: 0;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  z-index: 1000;
-}
-
-.navbar-collapse.show {
-  height: auto;
+  background-color: transparent;
 }
 
 .navbar-nav {
-  flex-direction: column;
-  padding-left: 0;
+  margin-left: auto;
+  flex-direction: row;
+  gap: 0.5rem;
 }
 
 .nav-link {
   color: white !important;
-  font-weight: bold;
+  font-weight: 500;
   padding: 0.5rem 1rem;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
+  border-radius: 4px;
+  white-space: nowrap;
 }
 
 .nav-link:hover {
   background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 4px;
+  transform: translateY(-1px);
 }
 
 .nav-link.active {
   background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 4px;
   font-weight: 600;
+}
+
+/* Mobile navbar styles */
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    flex-direction: column;
+    background-color: #4a90e2;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 1rem;
+    gap: 0.25rem;
+  }
+  
+  .nav-link {
+    text-align: center;
+    padding: 0.75rem 1rem;
+  }
 }
 
 /* Iconic Image Section */
@@ -522,12 +534,18 @@ p {
     background-color: #1a73e8; /* Ensure header is blue in dark mode */
   }
 
-  .navbar-collapse {
-    background-color: #1a73e8;
+  .navbar-brand {
+    color: #e0e0e0 !important;
   }
 
   .navbar {
     background-color: #1a73e8 !important;
+  }
+
+  @media (max-width: 991.98px) {
+    .navbar-nav {
+      background-color: #1a73e8;
+    }
   }
 
   .footer {

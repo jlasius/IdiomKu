@@ -1,0 +1,15 @@
+# robots.txt for IdiomKu
+
+# Allow all search engines to crawl the site
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://idiomku.com/sitemap.xml
+
+# Crawl-delay (optional - helps prevent server overload)
+# Most modern bots ignore this, but it's good practice
+Crawl-delay: 1
+
+# Disallow crawling of specific directories if needed
+# Currently allowing all content

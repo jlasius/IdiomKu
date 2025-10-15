@@ -1,10 +1,10 @@
-modules = ["web", "nodejs-20", "python-3.9"]
+modules = ["web", "nodejs-20", "python-3.11"]
 
 [nix]
 channel = "stable-24_05"
 
 [workflows]
-runButton = "Serve Static Files"
+runButton = "Project"
 
 [[workflows.workflow]]
 name = "Serve Static Files"
@@ -14,6 +14,27 @@ mode = "sequential"
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "python3 -m http.server 5000"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Server"
+
+[[workflows.workflow]]
+name = "Server"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 server.py"
+waitForPort = 5000
+
+[workflows.workflow.metadata]
+outputType = "webview"
 
 [[ports]]
 localPort = 5000

@@ -99,6 +99,8 @@ categories[] {
   - Allow all search engine crawlers
   - Reference sitemap location
   - Set crawl-delay directive to 1 second
+- **Google Search Console verification** file added for site ownership verification
+- **Cross-linking** to sister project Chimigi (Persian culture/language platform) for SEO benefits
 
 ## External Dependencies
 
